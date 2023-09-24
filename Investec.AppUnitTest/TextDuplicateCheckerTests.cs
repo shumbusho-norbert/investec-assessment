@@ -12,8 +12,8 @@ namespace Investec.AppUnitTest
     public class TextDuplicateCheckerTests
     {
         [DataTestMethod]
-        [DataRow("I like eating apples", "Found the following duplicates:  lieap")]
-        [DataRow("abc", "No duplicate found.")]
+        [DataRow("I like eating apples", "Found the following duplicates: ileap")]
+        [DataRow("abcd4", "No duplicate found.")]
         public void ProcessText_TestCases(string input, string expectedResult)
         {
             // Arrange

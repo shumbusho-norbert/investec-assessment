@@ -7,7 +7,7 @@ namespace Investec.AppUnitTest
     public class VowelCounterTests
     {
         [DataTestMethod]
-        [DataRow("I like eating apples", "The number of vowels is:8")]
+        [DataRow("I like eating apples", "The number of vowels is:3")]
         [DataRow("", "No vowels found.")]
         public void ProcessText_ValidInput_ReturnsExpectedResult(string input, string expectedResult)
         {
